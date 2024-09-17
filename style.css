@@ -25,19 +25,44 @@ header {
     color: rgb(155, 49, 212);
 }
 
+.search {
+    padding: 0 15px;
+    margin-right: 60px;
+}
+
 .search input {
-    width: 500px;
+    width: 450px;
     height: 25px;
     border: 1px solid hsl(231, 7%, 60%);
     border-radius: 20px;
     margin-top: 4px;
-    margin-right: 120px;
-}
-
-.search input:active {
-    border-color: rgb(155, 49, 212);
 }
 
 .cart-logo img {
     width: 25px;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.2rem 5rem;
+        font-family: 'SUSE';
+        font-size: 0.6rem;
+    }
+
+    .search {
+        padding: 0px;
+        margin-right: 0px;
+    }
+
+    .search input {
+        width: 200px;
+        height: 20px;
+        border: 1px solid hsl(231, 7%, 60%);
+        border-radius: 20px;
+        margin-top: 4px;
+    }
 }
