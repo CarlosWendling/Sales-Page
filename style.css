@@ -19,6 +19,7 @@ header {
     padding: 1.2rem 5rem;
     font-family: 'SUSE';
     font-size: 0.9rem;
+    z-index: 1;
 }
 
 .title {
@@ -40,6 +41,79 @@ header {
 
 .cart-logo img {
     width: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(196, 218, 226);
+    font-family: 'SUSE';
+}
+
+.filter {
+    padding: 1rem;
+    border: 1px solid red;
+}
+
+.filter div {
+    margin: 1.5rem 0;
+}
+
+.filter input[type='checkbox'] {
+    accent-color: rgb(155, 49, 212);
+}
+
+.promotion {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 200px;
+    padding: 12px 8px;
+}
+
+.promotion label {
+    font-size: 1.1rem;
+    font-weight: 550;
+    word-spacing: 0.2rem;
+}
+
+.delivering {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 200px;
+    padding: 12px 8px;
+}
+
+.delivering label {
+    font-size: 1.1rem;
+    font-weight: 550;
+    word-spacing: 0.2rem;
+}
+
+.brand p,
+.status p,
+.category p,
+.price p {
+    margin-bottom: 0.6rem;
+}
+
+.brand section,
+.status section,
+.category section,
+.price section {
+    margin-left: 0.6rem;
+}
+
+.price section p{
+    display: inline;
+}
+
+.price input {
+    width: 70px;
+    height: 20px;
 }
 
 @media screen and (max-width: 730px) {
