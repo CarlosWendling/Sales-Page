@@ -45,9 +45,10 @@ header {
 
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: rgb(196, 218, 226);
     font-family: 'SUSE';
+    border: solid purple 1px;
 }
 
 .filter {
@@ -114,6 +115,29 @@ main {
 .price input {
     width: 70px;
     height: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 57rem;
+    justify-content: space-between;
+    margin-left: 1rem;
+    padding-top: 2.5rem;
+    border: 1px solid black;
+}
+
+.card {
+    width: 18rem;
+    height: 20rem;
+    margin-bottom: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+
+.card img {
+    width: 100%;
+    height: 45%;
 }
 
 @media screen and (max-width: 730px) {
