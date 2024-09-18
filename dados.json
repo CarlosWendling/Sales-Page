@@ -1,23 +1,23 @@
 {
     "products": [
         {
-            "name": "Coontra-Baixo",
+            "name": "Contra-Baixo",
             "image": "./assets/bass-image.png",
             "free-delivery": true,
             "brand": "Gibson",
             "status": "Novo",
-            "category": "Instrumento de corda",
+            "category": "Instrumento de Corda",
             "price": 800,
             "discount": 0,
             "description": "Contra-Baixo todo preto."
         },
         {
-            "name": "Coontra-Baixo",
+            "name": "Contra-Baixo",
             "image": "./assets/bass-image.png",
             "free-delivery": true,
             "brand": "Gibson",
             "status": "Novo",
-            "category": "Instrumento de corda",
+            "category": "Instrumento de Corda",
             "price": 800,
             "discount": 0,
             "description": "Contra-Baixo todo preto."
@@ -28,7 +28,7 @@
             "free-delivery": false,
             "brand": "Fender",
             "status": "Novo",
-            "category": "Instrumento de corda",
+            "category": "Instrumento de Corda",
             "price": 500,
             "discount": 0,
             "description": "Guitarra com ótimo som e estilizada."
@@ -39,7 +39,7 @@
             "free-delivery": false,
             "brand": "Fender",
             "status": "Novo",
-            "category": "Instrumento de corda",
+            "category": "Instrumento de Corda",
             "price": 500,
             "discount": 0,
             "description": "Guitarra com ótimo som e estilizada."
@@ -50,7 +50,7 @@
             "free-delivery": false,
             "brand": "Yamaha",
             "status": "Usado",
-            "category": "Instrumento de corda",
+            "category": "Instrumento de Corda",
             "price": 4600,
             "discount": 700,
             "description": "Piano preto semi novo mas em ótimo estado e sem marcas de uso."
