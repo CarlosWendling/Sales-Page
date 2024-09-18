@@ -48,7 +48,7 @@ header {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        padding: 1.2rem 5rem;
+        padding: 1.1rem 3rem;
         font-family: 'SUSE';
         font-size: 0.6rem;
     }
@@ -61,6 +61,31 @@ header {
     .search input {
         width: 200px;
         height: 20px;
+        border: 1px solid hsl(231, 7%, 60%);
+        border-radius: 20px;
+        margin-top: 4px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-bar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.2rem 6rem;
+        font-family: 'SUSE';
+        font-size: 1rem;
+    }
+
+    .search {
+        padding: 0 20px;
+        margin-right: 100px;
+    }
+
+    .search input {
+        width: 500px;
+        height: 25px;
         border: 1px solid hsl(231, 7%, 60%);
         border-radius: 20px;
         margin-top: 4px;
