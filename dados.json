@@ -1,0 +1,103 @@
+{
+    "products": [
+        {
+            "name": "Coontra-Baixo",
+            "image": "./assets/bass-image.png",
+            "free-delivery": true,
+            "brand": "Gibson",
+            "status": "Novo",
+            "category": "Instrumento de corda",
+            "price": 800,
+            "discount": 0,
+            "description": "Contra-Baixo todo preto."
+        },
+        {
+            "name": "Coontra-Baixo",
+            "image": "./assets/bass-image.png",
+            "free-delivery": true,
+            "brand": "Gibson",
+            "status": "Novo",
+            "category": "Instrumento de corda",
+            "price": 800,
+            "discount": 0,
+            "description": "Contra-Baixo todo preto."
+        },
+        {
+            "name": "Guitarra",
+            "image": "./assets/eletric-guitar-image.png",
+            "free-delivery": false,
+            "brand": "Fender",
+            "status": "Novo",
+            "category": "Instrumento de corda",
+            "price": 500,
+            "discount": 0,
+            "description": "Guitarra com ótimo som e estilizada."
+        },
+        {
+            "name": "Guitarra",
+            "image": "./assets/eletric-guitar-image.png",
+            "free-delivery": false,
+            "brand": "Fender",
+            "status": "Novo",
+            "category": "Instrumento de corda",
+            "price": 500,
+            "discount": 0,
+            "description": "Guitarra com ótimo som e estilizada."
+        },
+        {
+            "name": "Piano",
+            "image": "./assets/piano-image.png",
+            "free-delivery": false,
+            "brand": "Yamaha",
+            "status": "Usado",
+            "category": "Instrumento de corda",
+            "price": 4600,
+            "discount": 700,
+            "description": "Piano preto semi novo mas em ótimo estado e sem marcas de uso."
+        },
+        {
+            "name": "Bateria",
+            "image": "./assets/drums-image.png",
+            "free-delivery": false,
+            "brand": "Tama",
+            "status": "Usado",
+            "category": "Instrumento de Percussão",
+            "price": 3000,
+            "discount": 400,
+            "description": "Bateria completa mas com algumas marcas de uso."
+        },
+        {
+            "name": "Trompete",
+            "image": "./assets/trumpet-image.png",
+            "free-delivery": true,
+            "brand": "Dolphin",
+            "status": "Novo",
+            "category": "Instrumento de Sopro",
+            "price": 2400,
+            "discount": 0,
+            "description": "Trompete de bronze perfeitamente afinado."
+        },
+        {
+            "name": "Trompete",
+            "image": "./assets/trumpet-image.png",
+            "free-delivery": true,
+            "brand": "Dolphin",
+            "status": "Novo",
+            "category": "Instrumento de Sopro",
+            "price": 2400,
+            "discount": 0,
+            "description": "Trompete de bronze perfeitamente afinado."
+        },
+        {
+            "name": "Saxofone",
+            "image": "./assets/saxophone-image.png",
+            "free-delivery": false,
+            "brand": "Eagle",
+            "status": "Novo",
+            "category": "Instrumento de Sopro",
+            "price": 3200,
+            "discount": 800,
+            "description": "Saxofone padrão com 26 orifícios e 23 chaves vedadas."
+        }
+    ]
+}
