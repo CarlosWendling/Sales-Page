@@ -9,7 +9,8 @@
 
 header {
     background-color: white;
-    box-shadow: 0px 3px 15px  hsl(231, 7%, 60%);
+    box-shadow: 5px 5px 20px  black;
+    z-index: 2;
 }
 
 .nav-bar {
@@ -19,7 +20,6 @@ header {
     padding: 1.2rem 5rem;
     font-family: 'SUSE';
     font-size: 0.9rem;
-    z-index: 1;
 }
 
 .title {
@@ -48,7 +48,7 @@ main {
     justify-content: center;
     background-color: rgb(196, 218, 226);
     font-family: 'SUSE';
-    border: solid purple 1px;
+    z-index: 1;
 }
 
 .filter {
@@ -120,7 +120,7 @@ main {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 57rem;
+    width: 50rem;
     justify-content: space-between;
     margin-left: 1rem;
     padding-top: 2.5rem;
@@ -128,16 +128,34 @@ main {
 }
 
 .card {
-    width: 18rem;
-    height: 20rem;
+    width: 16rem;
+    height: 19rem;
     margin-bottom: 1rem;
+    padding: 0.7rem;
     background-color: rgb(255, 255, 255);
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 .card img {
     width: 100%;
     height: 45%;
+    margin-bottom: 1rem;
+    padding-top: 1.5rem;
+}
+
+.card-body {
+    display: block;
+    
+}
+
+.card-body h5{
+    font-size: 1rem;
+}
+
+.product-price {
+    font-size: 1.4rem;
+    color: rgb(56, 188, 74);
+    margin: 0.6rem 0;
 }
 
 @media screen and (max-width: 730px) {
@@ -163,9 +181,27 @@ main {
         border-radius: 20px;
         margin-top: 4px;
     }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50rem;
+        justify-content: space-between;
+        padding-top: 2.5rem;
+        border: 1px solid black;
+    }
+
+    .card {
+        width: 13rem;
+        height: 16rem;
+        margin-bottom: 1rem;
+        padding: 0.7rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .nav-bar {
         display: flex;
         flex-wrap: wrap;

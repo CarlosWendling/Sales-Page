@@ -9,6 +9,7 @@ fetch("dados.json").then((response) => {
                 <img src="${product.image}" class="product-img" alt="A ${product.name} photo.">
                 <div class="card-body">
                     <h5 class="product-name">${product.name}</h5>
+                    <p class="product-price">R$ ${product.price}</p>
                     <p class="product-description">${product.description}</p>
                 </div>
             </div>

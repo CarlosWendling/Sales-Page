@@ -9,7 +9,7 @@
             "category": "Instrumento de Corda",
             "price": 800,
             "discount": 0,
-            "description": "Contra-Baixo todo preto."
+            "description": "Contra-Baixo elétrico todo preto e pronto para uso."
         },
         {
             "name": "Contra-Baixo",
@@ -20,7 +20,7 @@
             "category": "Instrumento de Corda",
             "price": 800,
             "discount": 0,
-            "description": "Contra-Baixo todo preto."
+            "description": "Contra-Baixo elétrico todo preto e pronto para uso."
         },
         {
             "name": "Guitarra",
@@ -31,7 +31,7 @@
             "category": "Instrumento de Corda",
             "price": 500,
             "discount": 0,
-            "description": "Guitarra com ótimo som e estilizada."
+            "description": "Guitarra elétrica com ótimo som e estilizada."
         },
         {
             "name": "Guitarra",
@@ -42,7 +42,7 @@
             "category": "Instrumento de Corda",
             "price": 500,
             "discount": 0,
-            "description": "Guitarra com ótimo som e estilizada."
+            "description": "Guitarra elétrica com ótimo som e estilizada."
         },
         {
             "name": "Piano",
