@@ -9,8 +9,6 @@
 
 header {
     background-color: white;
-    box-shadow: 5px 5px 20px  black;
-    z-index: 2;
 }
 
 .nav-bar {
@@ -48,7 +46,6 @@ main {
     justify-content: center;
     background-color: rgb(196, 218, 226);
     font-family: 'SUSE';
-    z-index: 1;
 }
 
 .filter {
@@ -143,7 +140,6 @@ main {
 
 .card-body {
     display: block;
-    
 }
 
 .card-body h5{
@@ -154,6 +150,28 @@ main {
     font-size: 1.4rem;
     color: rgb(56, 188, 74);
     margin: 0.6rem 0;
+}
+
+.btn {
+    display: flex;
+    position: relative;
+    background-color: rgb(155, 49, 212);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 9px 53px;
+    bottom: 1rem;
+    font-family: 'SUSE';
+    font-weight: 600;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.card:hover {
+    .btn {
+        visibility: visible;
+        box-shadow: 0 -40px 5px 3px rgb(255, 255, 255, 0.9);
+    }
 }
 
 @media screen and (max-width: 730px) {
@@ -186,7 +204,6 @@ main {
         width: 50rem;
         justify-content: space-between;
         padding-top: 2.5rem;
-        border: 1px solid black;
     }
 
     .card {
@@ -206,6 +223,28 @@ main {
 
     .product-description {
         font-size: 0.8rem;
+    }
+
+    .btn {
+        display: flex;
+        position: relative;
+        bottom: 1rem;
+        background-color: rgb(155, 49, 212);
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        margin: 0px auto;
+        padding: 6px 30px;
+        font-family: 'SUSE';
+        font-weight: 600;
+        cursor: pointer;
+        visibility: hidden;
+    }
+
+    .card:hover {
+        .btn {
+            visibility: visible;
+            box-shadow: 0 -30px 5px 3px rgb(255, 255, 255, 0.9);
+        }
     }
 }
 

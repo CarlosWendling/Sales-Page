@@ -11,6 +11,7 @@ fetch("dados.json").then((response) => {
                     <h5 class="product-name">${product.name}</h5>
                     <p class="product-price">R$ ${product.price - product.discount}</p>
                     <p class="product-description">${product.description}</p>
+                    <input type="button" class="btn" value="Adicionar ao carrinho">
                 </div>
             </div>
             `
