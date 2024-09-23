@@ -235,7 +235,7 @@ main {
         word-spacing: 0.2rem;
     }
 
-    .price section p{
+    .price section input{
         display: block;
     }
 
