@@ -53,7 +53,6 @@ main {
 
 .filter {
     padding: 1rem;
-    border: 1px solid red;
 }
 
 .filter div {
@@ -124,7 +123,6 @@ main {
     justify-content: space-between;
     margin-left: 1rem;
     padding-top: 2.5rem;
-    border: 1px solid black;
 }
 
 .card {
@@ -198,6 +196,16 @@ main {
         padding: 0.7rem;
         background-color: rgb(255, 255, 255);
         border-radius: 5px;
+    }
+
+    .product-price {
+        font-size: 1.1rem;
+        color: rgb(56, 188, 74);
+        margin: 0.6rem 0;
+    }
+
+    .product-description {
+        font-size: 0.8rem;
     }
 }
 
