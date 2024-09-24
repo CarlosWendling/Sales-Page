@@ -19,7 +19,7 @@ function load() {
 
                 const price = document.createElement('p')
                 price.classList.add('product-price')
-                price.textContent = product.price - product.discount
+                price.textContent = `R$ ${product.price - product.discount}`
                     
                 const description = document.createElement('p')
                 description.textContent = product.description
